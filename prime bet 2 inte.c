@@ -6,4 +6,13 @@ printf("enter the number for n and m");
 scanf("%d%d,&n,&m);
 for(i=n;i<=m;i++)
 {
-for(i
+if(i%1==0)
+c++;
+}
+if(c==2)
+ printf("%d",prime numbers are,i);
+ else
+  printf("%d",not a prime numbers are,i);
+      }     
+ 
+      
