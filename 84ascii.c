@@ -3,6 +3,6 @@ int main()
 {
   char s[40];
   printf("enter character:");
-  scanf("%s",&s);
+  scanf("%c",&s);
   printf("%d",s);
 }
